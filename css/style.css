@@ -184,11 +184,16 @@ footer{
 
        
 
-        div input,
-        div select{
+        div input
+        {
 
             width: 80%;
             
+        }
+
+        div select{
+
+            width: 362px;
         }
 
         div label{
