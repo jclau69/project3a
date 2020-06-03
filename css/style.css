@@ -170,26 +170,44 @@ footer{
 
     @media(min-width:500px) {
 
+        div{
+
+            display: flex;
+            align-items: center;
+        }
+
+        div label {
+
+            width: 20%;
+        }
+       
+        div input, 
+        #state {
+
+            width:80%;
+        }
         button {
 
             width: 101.5%;
            }
+
+           #zip{
+
+            width: 25%;
+           }
+
+        
+
+           
     }
     
     @media(min-width:768px) {
 
        
 
-        div{
-
-            display: flex;
-            align-items: center;
-        }
         
-        div label {
-
-            width: 20%;
-        }
+        
+        
 
         div input,
         #state{
@@ -207,13 +225,21 @@ footer{
 
            #zip {
 
-            width: 30%;
+            width: 25%;
+            
            }
     }
 
    
     @media(min-width:1440px) {
 
+        div input {
+
+        width: 80%;
+
+
+
+}
 
         div label {
 
