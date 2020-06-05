@@ -1,6 +1,8 @@
 body {
 
+    font-size: 135%;
     margin:0;
+    font-family: 'Alegreya Sans SC', "verdana regular","Lucida Grande", "Optima",  sans-serif;
 }
 header{
 
@@ -24,6 +26,7 @@ h3 {
     color: white;
     background-color: black;
     padding: 1rem;
+    margin: 0;
     
 }
 
@@ -31,7 +34,7 @@ h3 {
 p{
 
     color: rgb(185, 185, 185);
-    font-size: 13px;
+    font-size: 60%;
     
 }
 
@@ -75,7 +78,7 @@ fieldset {
    
     display: inline-block;
     color: rgb(185, 185, 185);
-    font-size: 11px;
+    font-size: 70%;
     padding-top: 1rem;
     padding-bottom: 7px;
     width: 63%;
@@ -85,8 +88,9 @@ fieldset {
 
 input:focus {
 
-color: rgb(44, 238, 5);
-transition: 2s;
+
+background-color: bisque;
+transition: 1s;
 
 }
 
