@@ -28,6 +28,12 @@ p{
     
 }
 
+form{
+
+
+    padding: 1rem;
+}
+
 legend{
 
     text-align: left;
@@ -106,23 +112,13 @@ transition: 1s;
 
  
 
-button {
-
-    margin-top: 1rem;
-    background-color: rgb(10, 180, 152);
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    border-radius: 5px;
-    width: 102.5%;
-    line-height: 2;
-}
 textarea{
 
     background-color: rgb(241, 241, 241);
     border-radius: 5px;
     min-height: 20vh;
-    width: 100%;
+    width: 99%;
+    margin: 1rem auto;
 
 }
 
@@ -155,32 +151,50 @@ footer{
         width: 37%;
     }
 
+    input[type="submit"] {
+        width: 100%;
+        height: 3rem;
+        border-radius: 3px;
+        background-color: rgb(10, 180, 152);
+        color: white;
+        border-style: none;
+        padding: 0;
+
 
    
     
     @media(min-width:768px) {
 
        
+       
+    
+        div {
 
-        div input,
-        #state{
-
-            width: 80%;
+           
+            display: flex;
+            flex-wrap: wrap;
+             
+        }
+    
+        div label {
+           
+           
+            width: 23%;
+            margin: 26px 0;
+        }
+    
+        div input, #state  {
+            flex: 1 55%;
             
         }
-
+    
+        #zip {
+            max-width: 32%;    
+        }
+    
        
-
-        button {
-
-            width: 101%;
-           }
-
-           #zip {
-
-            width: 25%;
-            
-           }
+        
+    
     }
 
    
