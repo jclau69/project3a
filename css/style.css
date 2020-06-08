@@ -1,6 +1,6 @@
 body {
 
-    font-size: 135%;
+    
     margin:0;
     font-family: 'Alegreya Sans SC', "verdana regular","Lucida Grande", "Optima",  sans-serif;
 }
@@ -10,16 +10,6 @@ header{
     
 }
 
-main {
-
-    max-width: 1440px;
-    margin:1rem;
-}
-
-form{
-
-    text-align: center;
-}
 
 h3 {
 
@@ -34,7 +24,7 @@ h3 {
 p{
 
     color: rgb(185, 185, 185);
-    font-size: 60%;
+    font-size: smalls;
     
 }
 
@@ -50,7 +40,7 @@ legend{
 
 section{
 
-    border-bottom: rgb(2, 27, 70) solid 2px;
+border-bottom: rgb(2, 27, 70) solid 2px;
  padding-bottom:2px;
  margin-bottom: 1rem;
  margin: 1rem;
@@ -65,25 +55,27 @@ section p {
   
 }
 
-fieldset {
 
+  label{
+
+    color: lightgray;
+    font-size: small;
+ }   
+
+div input{
+
+    font-family: inherit;
+    font-size: 100%;
+    height: 3rem;
+    background-color: rgb(241, 241, 241);
+    border-radius: 5px;
     text-align: left;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	border: none;
+    outline: 0;
+   width: 100%;
    
-}
-
-
-
-  label {
-
-   
-    display: inline-block;
-    color: rgb(185, 185, 185);
-    font-size: 70%;
-    padding-top: 1rem;
-    padding-bottom: 7px;
-    width: 63%;
-
-    
 }
 
 input:focus {
@@ -95,22 +87,6 @@ transition: 1s;
 }
 
 
-
-div input{
-
-    font-family: inherit;
-    font-size: 100%;
-    height: 3rem;
-    background-color: rgb(241, 241, 241);
-    border-radius: 5px;
-    text-align: left;
-	width: 99%;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	border: none;
-	outline: 0;
-   
-}
 
 #state {
 
@@ -124,7 +100,7 @@ div input{
 	margin-bottom: 0.5rem;
 	border: none;
     outline: 0;
-    width:  99.6%;
+    width: 100%;
 
 }
 
@@ -180,46 +156,11 @@ footer{
     }
 
 
-    @media(min-width:500px) {
-
-        div{
-
-            display: flex;
-            align-items: center;
-        }
-
-        div label {
-
-            width: 20%;
-        }
-       
-        div input, 
-        #state {
-
-            width:80%;
-        }
-        button {
-
-            width: 101.5%;
-           }
-
-           #zip{
-
-            width: 25%;
-           }
-
-        
-
-           
-    }
+   
     
     @media(min-width:768px) {
 
        
-
-        
-        
-        
 
         div input,
         #state{
@@ -243,36 +184,4 @@ footer{
     }
 
    
-    @media(min-width:1440px) {
-
-        div input {
-
-        width: 80%;
-
-
-
-}
-
-        div label {
-
-            width: 12%;
-        }
-
-       #state {
-
-        width:  80.5%;
-       }
-
-        #zip{
-
-    width: 15%;
-    
-
-        }
-
-        button{
-
-            width: 100.5%;
-        }
-    }
     
