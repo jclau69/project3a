@@ -24,7 +24,7 @@ h3 {
 p{
 
     color: rgb(185, 185, 185);
-    font-size: smalls;
+    font-size: small;
     
 }
 
@@ -134,16 +134,12 @@ footer{
 
 
 
-::-webkit-input-placeholder {
+::placeholder {
     text-align: right;
     font-style: italic;
     padding: 10px;
     }
-    :-moz-placeholder {
-    text-align: right;
-    font-style: italic;
-    padding: 10px;
-    }
+   
 
     #zip{
 
@@ -159,7 +155,7 @@ footer{
         border-style: none;
         padding: 0;
 
-
+    }
    
     
     @media(min-width:768px) {
